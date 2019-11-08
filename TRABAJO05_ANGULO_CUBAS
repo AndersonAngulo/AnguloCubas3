@@ -1,0 +1,977 @@
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo de la Energia Potencial Gravitatoria
+
+# Declaracion de la variable
+masa,gravedad,altura,energia_potencial_gravitatoria=0.0,0.0,0.0,0.0
+
+# Calculadora
+masa=20
+gravedad=9.8
+altura=12
+energia_potencial_gravitatoria=masa*gravedad*altura
+
+#mostrar datos
+print("masa = ", masa)
+print("gravedad = ", gravedad)
+print("altura = ", altura)
+print("energia_potencial_gravitatoria = ", energia_potencial_gravitatoria)
+
+#verificador
+mayor_que=(energia_potencial_gravitatoria>100)
+
+print("la energia potencial gravitatoria es mayor a 100?", mayor_que)
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo de la Presion
+
+# Declaracion de la variable
+fuerza,area,presion=0.0,0.0,0.0
+
+# Calculadora
+fuerza=1200
+area=41
+presion=fuerza/area
+
+#mostrar datos
+print("fuerza = ", fuerza)
+print("area = ", area)
+print("presion = ", presion)
+
+#verificador
+presion_elevada=(presion>200)
+
+print("la presion que se ejerce supera  200 pascales ?", presion_elevada)
+
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo de Cantidad de Movimiento
+
+# Declaracion de la variable
+masa,velocidad,Cantidad_de_Movimiento=0.0,0.0,0.0
+
+# Calculadora
+masa=14
+velocidad=18
+Cantidad_de_Movimiento=masa*velocidad
+
+#mostrar datos
+print("masa = ", masa)
+print("velocidad = ", velocidad)
+print("Cantidad_de_Movimiento = ", Cantidad_de_Movimiento)
+
+#verificador
+mayor_que=(Cantidad_de_Movimiento>200)
+print("la cantidad de movimento, es amyor que 200 kg.m/s?", mayor_que)
+
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo de la Velocidad Angular
+
+# Declaracion de la variable
+angulo,tiempo,velocidad_angular=0.0,0.0,0.0
+
+# Calculadora
+angulo=45
+tiempo=14
+velocidad_angular=angulo/tiempo
+
+#mostrar datos
+print("angulo = ", angulo)
+print("tiempo = ", tiempo)
+print("velocidad_angular = ", velocidad_angular)
+
+#verificador
+mayor_que=(velocidad_angular>100)
+print("la velocidad angular es mayor a 100 rad/s?", mayor_que)
+
+
+print("\n")
+#CALCULADORA nro 13
+# Esta calculadora realiza el calculo de la Velocidad Tangencial
+
+# Declaracion de la variable
+longitud_arco,tiempo,velocidad_tangencial=0.0,0.0,0.0
+
+# Calculadora
+longitud_arco=3200
+tiempo=32
+velocidad_tangencial=longitud_arco/tiempo
+
+#mostrar datos
+print("longitud_arco = ", longitud_arco)
+print("tiempo =", tiempo)
+print("velocidad_tangencial = ", velocidad_tangencial)
+
+#verificador
+menor_que=(velocidad_tangencial<80)
+print("la velocidad tangencial es menor que 80 m/s?", menor_que)
+
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo de la LONGITUD DE ARCO de una circunferencia
+
+# Declaracion de la variable
+angulo,radio,longitud_arco=0.0,0.0,0.0
+
+# Calculadora
+angulo=37
+radio=10
+longitud_arco=angulo*radio
+
+#mostrar datos
+print("angulo = ", angulo)
+print("radio = ", radio)
+print("longitud_arco = ", longitud_arco)
+
+#verificador
+mayor_que=(longitud_arco>90)
+print("la longitud de arco es mayor que 90 m?", mayor_que)
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo del area del Cuadrado
+
+# Declaracion de la variable
+lado,area_cuadrado=0.0,0.0
+
+# Calculadora
+lado=35
+area_cuadrado=lado*lado
+
+#mostrar datos
+print("lado = ", lado)
+print("area_cuadrado = ", area_cuadrado)
+
+#verificador
+mayor_que=(area_cuadrado>700)
+print("el area del cuadrado es mayor que 700 m**2?", mayor_que)
+
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo del volumen del cubo
+
+# Declaracion de la variable
+arista,volumen_cubo=0.0,0.0
+
+# Calculadora
+arista=30
+volumen_cubo=arista*arista*arista
+
+#mostrar datos
+print("arista = ", arista)
+print("volumen_cubo = ", volumen_cubo)
+
+#verificador
+mayor_que=(volumen_cubo>150)
+print("el valor del volumen del cubo es mayor que 150 m**3?", mayor_que)
+
+
+print("\n")
+#CALCULADORA
+# Esta calculadora realiza el calculo del area lateral de un prisma
+
+# Declaracion de la variable
+perimetro_base,altura,area_lateral_prisma=0.0,0.0,0.0
+
+# Calculadora
+prerimetro_base= 120
+altura=13
+area_lateral_prisma=perimetro_base*altura
+
+#mostrar datos
+print("prerimetro_base = ", prerimetro_base)
+print("altura = ", altura)
+print("area_lateral_prisma = ", area_lateral_prisma)
+
+#verificador
+menor_que=(area_lateral_prisma>10)
+print("el prisma tiene un area lateral menor a 10 m**2?", menor_que)
+
+print("\n")
+#CALCULADORA
+ # Esta calculadora realiza el calculo de la Aceleracion_tangencial
+
+# Declaracion de la variable
+aceleracion_angular,radio,aceleracion_tangencial=0.0,0.0,0.0
+
+# Calculadora
+aceleracion_angular=19
+radio=20
+aceleracion_tangencial=aceleracion_angular*radio
+
+#mostrar datos
+print("aceleracion_angular = ", aceleracion_angular)
+print("radio = ", radio)
+print("aceleracion_tangencial = ", aceleracion_tangencial)
+
+#verificador
+mayor_que=(aceleracion_tangencial>50)
+
+print("la aceleracion tangencial es mayor a 50 m/s**2?", mayor_que)
+
+
+print("\n")
+#CONVERSORES
+
+# A ENTERO
+x="125"
+a=int(x)
+print(a)
+
+x=12.5
+b=int(x)
+print(b)
+
+x=10.6
+c=int(x)
+print(a)
+
+x=(20>5)
+d=int(x)
+print(d)
+
+x=7.9
+e=int(x)
+print(e)
+
+
+x="3736"
+a=int(x)
+print(a, type(a))
+
+
+x=336>336
+a=int(x)
+print(a, type(a))
+
+
+x=2425>362
+a=int(x)
+print(a, type(a))
+
+
+x="345"
+a=int(x)
+print(a, type(a))
+
+x="890"
+a=int(x)
+print(a, type(a))
+
+print("\n")
+#A real
+x="125.5"
+a=float(x)
+print(a)
+
+x="13.9"
+b=float(x)
+print(b)
+
+x=((1+5)<5)
+c=float(x)
+print(c)
+
+x="15.6"
+d=float(x)
+print(d)
+
+x=17
+e=float(x)
+print(e)
+
+
+x=234
+a=float(x)
+print(a, type(a))
+
+x=343
+a=float(x)
+print(a, type(a))
+
+x=35383
+a=float(x)
+print(a, type(a))
+
+x=524
+a=float(x)
+print(a, type(a))
+
+x="15525.26"
+a=float(x)
+print(a, type(a))
+
+
+print("\n")
+#A cadena
+x=120
+a=str(x)
+print(a)
+
+x=19
+b=str(x)
+print(b)
+
+x=((5*3)<5)
+c=str(x)
+print(c)
+
+x=17.5
+d=str(x)
+print(d)
+
+x=0.9
+e=str(x)
+print(e)
+
+
+x=234
+a=str(x)
+print(a, type(a))
+
+x=736
+a=str(x)
+print(a, type(a))
+
+x=8373
+a=str(x)
+print(a, type(a))
+
+x=8366
+a=str(x)
+print(a, type(a))
+
+x=2426.66
+a=str(x)
+print(a, type(a))
+
+x=7253.73
+a=str(x)
+print(a, type(a))
+
+print("\n")
+#A booleano
+x=120<119.9
+a=bool(x)
+print(a)
+
+x=20==(10*2)
+b=bool(x)
+print(b)
+
+x=((5*3)<5)
+c=bool(x)
+print(c)
+
+x=17.5!=17.502
+d=bool(x)
+print(d)
+
+x=0.9>0.91
+e=bool(x)
+print(e)
+      
+
+x=234
+a=bool(x)
+print(a, type(a))
+
+x=837
+a=bool(x)
+print(a, type(a))
+
+x=373
+a=bool(x)
+print(a, type(a))
+
+x=363
+a=bool(x)
+print(a, type(a))
+
+x=7626.927
+a=bool(x)
+print(a, type(a))
+
+x=75536.65
+a=bool(x)
+print(a, type(a))
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+kg=int(input("ingrese cantidad de kg de papa:"))
+precio_uni=float(input("ingrese precio unitario"))
+
+#PROCESSING
+total=(precio_uni*kg)
+
+#VERIFICADOR
+comprador_compulsivo=(total>150)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",kg,"kg papa")
+print("#P.U.: s/.",precio_uni)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Comprador Compulsivo?:",comprador_compulsivo)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+cant_libros=int(input("ingrese cantidad de libros:"))
+precio_uni=float(input("ingrese precio unitario"))
+
+#PROCESSING
+total=(precio_uni*cant_libros)
+
+#VERIFICADOR
+comprador_compulsivo=(total>500)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",cant_libros,"libros")
+print("#P.U.: s/.",precio_uni)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Comprador Compulsivo?:",comprador_compulsivo)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+cant_pantalones=int(input("ingrese cantidad de pantalones:"))
+precio_uni=float(input("ingrese precio unitario:"))
+
+#PROCESSING
+total=(precio_uni*cant_pantalones)
+
+#VERIFICADOR
+comprador_compulsivo=(total==200)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",cant_pantalones,"pantalones")
+print("#P.U.: s/.",precio_uni)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Comprador Compulsivo?:",comprador_compulsivo)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+numero_kilos=int(input("ingrese cantidad de kg de arroz:"))
+precio_kilo=float(input("ingrese precio unitario"))
+
+#PROCESSING
+total=(precio_kilo*numero_kilos)
+
+#VERIFICADOR
+comprador_compulsivo=(total>=50)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",numero_kilos,"kilos arroz")
+print("#P.U.: s/.",precio_kilo)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Comprador Compulsivo?:",comprador_compulsivo)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+cant_litros=int(input("ingrese cantidad de litros de chicha morada:"))
+precio_litro=float(input("ingrese precio unitario"))
+
+#PROCESSING
+total=(precio_litro*cant_litros)
+
+#VERIFICADOR
+comprador_compulsivo=(total>150)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",kg,"kg Fresa")
+print("#P.U.: s/.",precio_litro)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Comprador Compulsivo?:",comprador_compulsivo)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+cant_alumnos=int(input("ingrese cantidad de alumnos:"))
+costo_alumno=float(input("ingrese precio por alumno"))
+
+#PROCESSING
+total=(costo_alumno*cant_alumnos)
+
+#VERIFICADOR
+Dinero_suficiente=(total>=200)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",cant_alumnos,"alumnos")
+print("#P.U.: s/.",costo_alumno)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Dinero suficente?:",Dinero_suficiente)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+n_horas=int(input("ingrese cantidad de horas:"))
+precio_hora=float(input("ingrese precio por hora"))
+
+#PROCESSING
+total=(precio_hora*n_horas)
+
+#VERIFICADOR
+cobro_alto=(total>250)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",n_horas,"horas")
+print("#P.U.: s/.",precio_hora)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Cobro alto?:",cobro_alto)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+n_personas=int(input("ingrese cantidad de personas:"))
+costo_persona=float(input("ingrese precio por persona"))
+
+#PROCESSING
+total=(costo_persona*n_personas)
+
+#VERIFICADOR
+alto_dinero_recaudado=(total>2000)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",n_personas,"personas")
+print("#P.U.: s/.",costo_persona)
+print("# total.: s/.",total)
+print("#######################")
+print("¿alto dinero recaudado?:",alto_dinero_recaudado)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+n_monedas=int(input("ingrese cantidad de monedas:"))
+valor_moneda=float(input("ingrese el valor nominal de la moneda"))
+
+#PROCESSING
+total=(valor_moneda*n_monedas)
+
+#VERIFICADOR
+mucho_dinero=(total>500)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",n_monedas,"monedas")
+print("#V.N.: s/.",valor_moneda)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Mucho dinero?:",mucho_dinero)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+n_cachorros=int(input("ingrese cantidad de cachorros:"))
+precio_cachorro=float(input("ingrese precio por cachorro"))
+
+#PROCESSING
+total=(n_cachorros*precio_cachorro)
+
+#VERIFICADOR
+malgastador=(total>3000)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",n_cachorros,"cachorros")
+print("#P.U.: s/.",precio_cachorro)
+print("# total.: s/.",total)
+print("#######################")
+print("¿malgastador?:",malgastador)
+
+print("\n")
+#INPUT
+cliente=input("ingrese le nombre del cliente:")
+n_panetones=int(input("ingrese cantidad de panetones:"))
+precio_paneton=float(input("ingrese precio por paneton"))
+
+#PROCESSING
+total=(precio_paneton*n_panetones)
+
+#VERIFICADOR
+Gasto_excesivo=(total>2000)
+
+# OUTPUT
+print("#######################")
+print("BOLETA DE VENTA")
+print("#######################")
+print("#")
+print("#cliente:",cliente)
+print("#ITEM: ",n_panetones,"panetones")
+print("#P.U.: s/.",precio_paneton)
+print("# total.: s/.",total)
+print("#######################")
+print("¿Gasto excesivo?:",Gasto_excesivo)
+
+print("\n")
+#input
+cliente=input("cliente:")
+empresa_azucarera=input("empresa azucarera:")
+quintales_azucar=int(input("ingrese el nro de quintales de azucar:"))
+precio_quintal=int(input("precio por cada quintal de azuca:"))
+
+#processing
+total=quintales_azucar*precio_quintal
+igv=total*0.18
+total_pagar=total+igv
+
+#verificador
+comerciante=(total_pagar>700
+             )
+#output
+print("#############################################################")
+print("#           AZUCAR       POMALCA		           #")
+print("#############################################################")
+print("cliente:", cliente          ,"empresa azucarera:", empresa_azucarera)
+print("#############################################################")
+print("#")
+print("#item:", quintales_azucar, "quintales de azucar")
+print("#P.U.:", precio_quintal)
+print("#total:", total)
+print("#IGV:", igv)
+print("total a pagar:", total_pagar)
+print("#############################################################")
+print("el cliente es un comerciante de azucar ?", comerciante)
+
+print("\n")
+#input
+cliente=input("cliente:")
+spa=input("spa:")
+servicio1=input("servicio1:")
+servicio2=input("servicio2:")
+costo_servicio1=int(input("costo por el servicio 01:"))
+costo_servicio2=int(input("costo servicio 02:"))
+
+#processing
+costo=costo_servicio1+costo_servicio2
+igv=costo*0.18
+total_pagar=costo+igv
+
+#verificador
+pago_limite=(total_pagar>100)
+
+#output
+print("#############################################################")
+print("#  SPA - MI ANGELA			                               #")
+print("#############################################################")
+print("cliente:", cliente,               "spa:", spa)
+print("#############################################################")
+print("#")
+print("#servicio 1:",servicio1)
+print("#servicio 2", servicio2)
+print("#precio servicio 1:", costo_servicio1)
+print("precio servicio 2:", costo_servicio2)
+print("#costo:", costo)
+print("#IGV:", igv)
+print("total a pagar:", total_pagar)
+print("#############################################################")
+print("el cliente supera el pago limite?", pago_limite)
+
+print("\n")
+#input
+usuario=input("ingresar el nombre del usuario:")
+operadora_internet=input("nombre de operadora:")
+gigas_usadas=int(input("total gigas usadas:"))
+costo_giga=int(input("costo por cada giga de internet usada:"))
+
+#processing
+total=gigas_usadas*costo_giga
+igv=total*0.18
+total_pagar=total+igv
+
+#verificador
+gigas_limite=(gigas_usadas>50)
+
+#output
+print("#############################################################")
+print("#	BITEL- TELEFONIA DE TODOS			                   #")
+print("#############################################################")
+print("cliente:", usuario,             "operadora:", operadora_internet)
+print("#############################################################")
+print("#")
+print("#gigas usadas:", gigas_usadas)
+print("#costo por giga:", costo_giga)
+print("#total:", total)
+print("#IGV:", igv)
+print("total a pagar:", total_pagar)
+print("#############################################################")
+print("el cliente se exedio en el uso de gigas?", gigas_limite)
+
+
+print("\n")
+#input
+velocidad_1=int(input("velocidad del primer movil:"))
+velocidad_2=int(input("velocidad del segundo movil:"))
+distancia=int(input("distancia de separacion:"))
+
+#processing
+tiempo_encuentro=(distancia)/(velocidad_1+velocidad_2)
+
+#verificador
+tiempo_previsto=(tiempo_encuentro>10)
+
+#output
+print("####################################################")
+print("#    CALCULO DEL TIEMPO DE ENCUENTRO     #")
+print("####################################################")
+print("#")
+print("#velocidad primer movil:", velocidad_1, "m/s")
+print("#velocidad segundo movil:", velocidad_2, "m/s")
+print("#distancia de separacion:", distancia, "metros")
+print("#tiempo de encuentro:", tiempo_encuentro)
+print("#")
+print("#####################################################")
+print("los moviles se encontraron en el tiempo previsto?", tiempo_previsto)
+
+
+print("\n")
+#input
+cliente=input("cliente:")
+cajero=input("cajero:")
+botellas=int(input("ingresar nro de botellas de aceite:"))
+pu=int(input("ingresar el precio de una botella de aceite:"))
+
+#processing
+consumo_total=botellas*pu
+igv=consumo_total*0.18
+total_pagar=consumo_total+igv
+
+#verificador
+limite=(total_pagar<100)
+
+#output
+print("#############################################################")
+print("#	BOLETA	   DE	   VENTA			    #")
+print("#############################################################")
+print("cliente:", cliente              , "cajero:", cajero)
+print("#############################################################")
+print("#")
+print("#item:", botellas, "botellas de aceite")
+print("#P.U.: s/.", pu, "c/u")
+print("#consumo:", consumo_total)
+print("#IGV: s/.", igv)
+print("total a pagar: s/.", total_pagar)
+print("#############################################################")
+print("el total a pagar es menor que el limite?", limite)
+
+
+print("\n")
+#input
+cliente=input("cliente:")
+cajero=input("cajero:")
+pares_zapatos=int(input("cantidad de pares de zapatos:"))
+pares_zapatillas=int(input("cantidad de pares de zapatillas:"))
+pares_tacones=int(input("cantidad de pares de tacones:"))
+precio_par_zapatos=int(input("precio del par de zapatos:"))
+precio_par_zapatillas=int(input("precio del par de zapatillas:"))
+precio_par_tacones=int(input("precio del par de tacones:"))
+
+#processing
+consumo_zapatos=pares_zapatos*precio_par_zapatos
+consumo_zapatillas=pares_zapatillas*precio_par_zapatillas
+consumo_tacones=pares_tacones*precio_par_tacones
+consumo_total=consumo_zapatos+consumo_zapatillas+consumo_tacones
+IGV=consumo_total*0.18
+total_pagar=consumo_total+IGV
+
+#verificador
+comprador_compulsivo=(total_pagar>1000)
+
+#output
+print("#############################################################")
+print("   ZAPATERIA - DAMIAN      ")
+print("#############################################################")
+print("cliente:", cliente               ,"cajero:", cajero)
+print("#############################################################")
+print("producto	        cantidad	     P.U.	             total")
+print("#zapatos:",      pares_zapatos   ,precio_par_zapatos ,consumo_zapatos)
+print("#zapatillas:",   pares_zapatillas ,precio_par_zapatillas ,consumo_zapatillas)
+print("#tacones:",      pares_tacones    ,precio_par_tacones    ,consumo_tacones)
+print("#############################################################")
+print("#consumo:", consumo_total)
+print("#IGV:", IGV)
+print("total a pagar:", total_pagar)
+print("#############################################################")
+print("el cliente es un comprador compulsivo ?", comprador_compulsivo)
+
+
+print("\n")
+#input
+cliente=input("cliente:")
+florista=input("florista:")
+ramos_flores=int(input("ingresar la cantidad de ramos de flores:"))
+pu=int(input("precio de un ramo de flores:"))
+#processing
+consumo_total=ramos_flores*pu
+igv=consumo_total*0.18
+total_pagar=consumo_total+igv
+
+#verificador
+revendedor=(total_pagar>150)
+
+#output
+print("#############################################################")
+print("#	FLORERIA - MI ROSA      ")
+print("#############################################################")
+print("cliente:", cliente               ,"florista:", florista)
+print("#############################################################")
+print("#")
+print("#item:", ramos_flores, "ramos de flores")
+print("#P.U.: s/.", pu)
+print("#consumo: s/.", consumo_total)
+print("#IGV: s/.", igv)
+print("total a pagar: s/.", total_pagar)
+print("#############################################################")
+print("el cliente es un revendedor de flores?", revendedor)
+
+
+print("\n")
+#input
+cliente=input("cliente:")
+vendedor=input("vendedor:")
+tienda=input("ingresar nombre de vendedor:")
+nro_chompas=int(input("nro de chompas:"))
+pu=int(input("precio de cada chompa:"))
+
+#processing
+pago_chompas=nro_chompas*pu
+igv=pago_chompas*0.18
+total_pagar=pago_chompas+igv
+
+#verificador
+limite=(nro_chompas>50)
+
+#output
+print("#############################################################")
+print("#    Tienda -  ABRIGOS QUE ABRIGAN			    #")
+print("#############################################################")
+print("cliente:", cliente            ,"vendedor:", vendedor)
+print("#############################################################")
+print("#")
+print("#item:", nro_chompas, "chompas")
+print("#P.U.: s/.", pu)
+print("#pago por chompas: s/.", pago_chompas)
+print("#IGV: s/.", igv)
+print("total a pagar: s/.", total_pagar)
+print("#############################################################")
+print("el cliente compra chompas en cantidad?", limite)
+
+
+print("\n")
+#input
+cliente=input("cliente:")
+vendedor=input("vendedor:")
+kg_papas=int(input("ingresar los kg de papas:"))
+precio_kg=int(input("precio de un kg de papas:"))
+
+#processing
+consumo_total=kg_papas*precio_kg
+igv=consumo_total*0.18
+total_pagar=consumo_total+igv
+
+#verificador
+consumo_limite=(total_pagar>100)
+#output
+print("#############################################################")
+print("#	BODEGA  -       MI FERNANDITO			    #")
+print("#############################################################")
+print("cliente:", cliente,    "     vendedor:", vendedor)
+print("#############################################################")
+print("#")
+print("#item:", kg_papas, "kg de papas")
+print("#Precio por kg: s/.", precio_kg)
+print("#consumo: s/.", consumo_total)
+print("#IGV: s/.", igv)
+print("total a pagar: s/.", total_pagar)
+print("#############################################################")
+print("El consumo del cliente supera el limite?", consumo_limite)
+
+
+print("\n")
+#input
+velocidad_1=int(input("velocidad del primer movil:"))
+velocidad_2=int(input("velocidad del segundo movil:"))
+distancia=int(input("distancia de separacion:"))
+
+#processig
+tiempo_alcance=(distancia)/(velocidad_2-velocidad_1)
+
+#verificador
+tiempo_previsto=(tiempo_alcance>15
+                 )
+#output
+print("####################################################")
+print("#    CALCULO DEL TIEMPO DE ALCANCE     #")
+print("####################################################")
+print("#")
+print("#velocidad primer movil:", velocidad_1, "m/s")
+print("#velocidad segundo movil:", velocidad_2, "m/s")
+print("#distancia de separacion:", distancia, "metros")
+print("#tiempo de alcance:", tiempo_alcance, "segundos")
+print("#")
+print("#####################################################")
+print("El movil 2 alcannzo al movil 1  en el tiempo previsto?", tiempo_previsto)
